@@ -13,7 +13,7 @@ int main() {
 
 	// gets time before loop
 	if (clock_gettime(CLOCK_REALTIME, &time_init) < 0)
-		printf("Erro em clock_gettime (tempo incial)\n"); // clock_gettime error
+		printf("Erro em clock_gettime (tempo inicial)\n"); // clock_gettime error
 
 	while(1) {
 		// creates a new process
